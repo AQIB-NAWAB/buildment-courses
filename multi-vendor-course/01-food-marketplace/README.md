@@ -83,7 +83,7 @@ Browsing, auth, cart, and admin flows work without Stripe/Cloudinary keys. Payme
 
 ```bash
 # from the repository root
-cd 01-food-marketplace
+cd multi-vendor-course/01-food-marketplace
 
 # 1. Install (include dev deps even if your shell has NODE_ENV=production)
 npm install --include=dev
@@ -228,7 +228,7 @@ Server tests use a dedicated `freshmarket_test` database. They expect the local 
 ## Project structure
 
 ```
-01-food-marketplace/
+multi-vendor-course/01-food-marketplace/
 ├── server/
 │   ├── src/
 │   │   ├── app.ts                 # createApp: middleware order, routers, health
