@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Kashmiri Chilli">
+  <rect width="800" height="600" fill="#df8a6b"/>
+  <circle cx="640" cy="120" r="150" fill="#ffffff" opacity=".28"/>
+  <circle cx="120" cy="500" r="190" fill="#ffffff" opacity=".18"/>
+  <rect x="500" y="150" width="140" height="200" rx="14" fill="#7e271a" opacity=".9"/><circle cx="570" cy="240" r="42" fill="#f4a15d"/>
+  <text x="48" y="500" font-family="Georgia, serif" font-size="46" font-weight="700" fill="#7e271a">Kashmiri Chilli</text>
+  <text x="48" y="544" font-family="Arial, sans-serif" font-size="22" letter-spacing="3" fill="#7e271a" opacity=".7">FRESHMARKET</text>
+</svg>

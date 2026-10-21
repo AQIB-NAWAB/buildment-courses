@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Vine Tomatoes">
+  <rect width="800" height="600" fill="#e9a08a"/>
+  <circle cx="640" cy="120" r="150" fill="#ffffff" opacity=".28"/>
+  <circle cx="120" cy="500" r="190" fill="#ffffff" opacity=".18"/>
+  <circle cx="570" cy="230" r="95" fill="#8f2f1f" opacity=".9"/><circle cx="540" cy="200" r="18" fill="#3e6b3a"/>
+  <text x="48" y="500" font-family="Georgia, serif" font-size="46" font-weight="700" fill="#8f2f1f">Vine Tomatoes</text>
+  <text x="48" y="544" font-family="Arial, sans-serif" font-size="22" letter-spacing="3" fill="#8f2f1f" opacity=".7">FRESHMARKET</text>
+</svg>

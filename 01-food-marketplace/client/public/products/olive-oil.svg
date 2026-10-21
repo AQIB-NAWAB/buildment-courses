@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Olive Oil">
+  <rect width="800" height="600" fill="#d9e3b4"/>
+  <circle cx="640" cy="120" r="150" fill="#ffffff" opacity=".28"/>
+  <circle cx="120" cy="500" r="190" fill="#ffffff" opacity=".18"/>
+  <rect x="540" y="120" width="90" height="220" rx="28" fill="#4d6622" opacity=".9"/><rect x="565" y="85" width="40" height="45" rx="8" fill="#4d6622"/><rect x="555" y="185" width="60" height="80" rx="8" fill="#f7f3e8" opacity=".85"/>
+  <text x="48" y="500" font-family="Georgia, serif" font-size="46" font-weight="700" fill="#4d6622">Olive Oil</text>
+  <text x="48" y="544" font-family="Arial, sans-serif" font-size="22" letter-spacing="3" fill="#4d6622" opacity=".7">FRESHMARKET</text>
+</svg>

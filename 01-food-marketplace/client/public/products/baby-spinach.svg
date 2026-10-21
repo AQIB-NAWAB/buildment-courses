@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Baby Spinach">
+  <rect width="800" height="600" fill="#b8d8b4"/>
+  <circle cx="640" cy="120" r="150" fill="#ffffff" opacity=".28"/>
+  <circle cx="120" cy="500" r="190" fill="#ffffff" opacity=".18"/>
+  <path d="M470 330c40-110 130-160 210-150-10 100-80 170-190 180 0-20-10-30-20-30z" fill="#2f6b4f" opacity=".9"/>
+  <text x="48" y="500" font-family="Georgia, serif" font-size="46" font-weight="700" fill="#2f6b4f">Baby Spinach</text>
+  <text x="48" y="544" font-family="Arial, sans-serif" font-size="22" letter-spacing="3" fill="#2f6b4f" opacity=".7">FRESHMARKET</text>
+</svg>

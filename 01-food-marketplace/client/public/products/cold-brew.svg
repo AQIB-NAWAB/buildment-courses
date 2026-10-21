@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Cold Brew Coffee">
+  <rect width="800" height="600" fill="#b79a82"/>
+  <circle cx="640" cy="120" r="150" fill="#ffffff" opacity=".28"/>
+  <circle cx="120" cy="500" r="190" fill="#ffffff" opacity=".18"/>
+  <path d="M510 170h130v140a50 50 0 0 1-50 50h-30a50 50 0 0 1-50-50z" fill="#3c2419" opacity=".9"/><path d="M640 210h28a28 28 0 0 1 0 56h-28" fill="none" stroke="#3c2419" stroke-width="14"/>
+  <text x="48" y="500" font-family="Georgia, serif" font-size="46" font-weight="700" fill="#3c2419">Cold Brew Coffee</text>
+  <text x="48" y="544" font-family="Arial, sans-serif" font-size="22" letter-spacing="3" fill="#3c2419" opacity=".7">FRESHMARKET</text>
+</svg>

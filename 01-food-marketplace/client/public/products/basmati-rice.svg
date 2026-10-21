@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Basmati Rice 1kg">
+  <rect width="800" height="600" fill="#efe5d6"/>
+  <circle cx="640" cy="120" r="150" fill="#ffffff" opacity=".28"/>
+  <circle cx="120" cy="500" r="190" fill="#ffffff" opacity=".18"/>
+  <path d="M480 340c0-100 40-180 100-180s100 80 100 180z" fill="#6a5533" opacity=".9"/><path d="M500 340h160" stroke="#fff" stroke-width="12" opacity=".6"/>
+  <text x="48" y="500" font-family="Georgia, serif" font-size="46" font-weight="700" fill="#6a5533">Basmati Rice 1kg</text>
+  <text x="48" y="544" font-family="Arial, sans-serif" font-size="22" letter-spacing="3" fill="#6a5533" opacity=".7">FRESHMARKET</text>
+</svg>

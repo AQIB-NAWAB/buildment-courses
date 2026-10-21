@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Masala Chai">
+  <rect width="800" height="600" fill="#cfae82"/>
+  <circle cx="640" cy="120" r="150" fill="#ffffff" opacity=".28"/>
+  <circle cx="120" cy="500" r="190" fill="#ffffff" opacity=".18"/>
+  <rect x="500" y="180" width="150" height="120" rx="18" fill="#54341c" opacity=".9"/><path d="M650 210h30a30 30 0 0 1 0 60h-30" fill="none" stroke="#54341c" stroke-width="14"/>
+  <text x="48" y="500" font-family="Georgia, serif" font-size="46" font-weight="700" fill="#54341c">Masala Chai</text>
+  <text x="48" y="544" font-family="Arial, sans-serif" font-size="22" letter-spacing="3" fill="#54341c" opacity=".7">FRESHMARKET</text>
+</svg>

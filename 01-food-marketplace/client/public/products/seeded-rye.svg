@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Seeded Rye">
+  <rect width="800" height="600" fill="#c9a77e"/>
+  <circle cx="640" cy="120" r="150" fill="#ffffff" opacity=".28"/>
+  <circle cx="120" cy="500" r="190" fill="#ffffff" opacity=".18"/>
+  <path d="M470 330c0-120 50-190 120-190s120 70 120 190z" fill="#4d3117" opacity=".9"/><path d="M510 250c30-40 130-40 160 0" stroke="#f7f3e8" stroke-width="10" fill="none" opacity=".7"/>
+  <text x="48" y="500" font-family="Georgia, serif" font-size="46" font-weight="700" fill="#4d3117">Seeded Rye</text>
+  <text x="48" y="544" font-family="Arial, sans-serif" font-size="22" letter-spacing="3" fill="#4d3117" opacity=".7">FRESHMARKET</text>
+</svg>

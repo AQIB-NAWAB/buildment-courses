@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Frozen Peas">
+  <rect width="800" height="600" fill="#c6e5c9"/>
+  <circle cx="640" cy="120" r="150" fill="#ffffff" opacity=".28"/>
+  <circle cx="120" cy="500" r="190" fill="#ffffff" opacity=".18"/>
+  <circle cx="520" cy="210" r="34" fill="#2f6b4f"/><circle cx="575" cy="190" r="34" fill="#2f6b4f"/><circle cx="590" cy="250" r="34" fill="#2f6b4f"/><circle cx="535" cy="270" r="34" fill="#2f6b4f"/>
+  <text x="48" y="500" font-family="Georgia, serif" font-size="46" font-weight="700" fill="#2f6b4f">Frozen Peas</text>
+  <text x="48" y="544" font-family="Arial, sans-serif" font-size="22" letter-spacing="3" fill="#2f6b4f" opacity=".7">FRESHMARKET</text>
+</svg>

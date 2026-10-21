@@ -1,0 +1,36 @@
+{
+  "name": "buildment-multi-vendor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FreshMarket — a course-aligned multi-vendor grocery marketplace",
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev": "concurrently -n api,web -c green,cyan \"npm:dev:server\" \"npm:dev:client\"",
+    "dev:server": "npm --workspace server run dev",
+    "dev:client": "npm --workspace client run dev",
+    "worker": "npm --workspace server run worker",
+    "build": "npm --workspace server run build && npm --workspace client run build",
+    "start": "npm --workspace server run start",
+    "seed": "npm --workspace server run seed",
+    "search:explain": "npm --workspace server run search:explain --",
+    "services:up": "docker compose up -d mongo redis",
+    "services:down": "docker compose down",
+    "db:init": "bash server/scripts/init-mongo.sh",
+    "typecheck": "npm --workspace server run typecheck && npm --workspace client run typecheck",
+    "lint": "npm --workspace server run lint && npm --workspace client run lint",
+    "test": "npm --workspace server run test && npm --workspace client run test",
+    "check": "npm run typecheck && npm run lint && npm run test && npm run build",
+    "format": "prettier --write \"**/*.{ts,tsx,js,json,css,md}\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "cross-env": "^10.0.0",
+    "prettier": "^3.6.2"
+  },
+  "engines": {
+    "node": ">=20.19"
+  }
+}

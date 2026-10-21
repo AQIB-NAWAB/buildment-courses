@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Whole Milk 1L">
+  <rect width="800" height="600" fill="#e8eef4"/>
+  <circle cx="640" cy="120" r="150" fill="#ffffff" opacity=".28"/>
+  <circle cx="120" cy="500" r="190" fill="#ffffff" opacity=".18"/>
+  <rect x="510" y="120" width="130" height="220" rx="16" fill="#34506b" opacity=".9"/><rect x="535" y="90" width="80" height="40" rx="8" fill="#34506b"/><rect x="530" y="200" width="90" height="60" fill="#fff" opacity=".85"/>
+  <text x="48" y="500" font-family="Georgia, serif" font-size="46" font-weight="700" fill="#34506b">Whole Milk 1L</text>
+  <text x="48" y="544" font-family="Arial, sans-serif" font-size="22" letter-spacing="3" fill="#34506b" opacity=".7">FRESHMARKET</text>
+</svg>

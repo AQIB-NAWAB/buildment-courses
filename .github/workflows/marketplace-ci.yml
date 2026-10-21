@@ -1,0 +1,58 @@
+name: marketplace-ci
+
+on:
+  push:
+    branches: [main, aqib]
+    paths:
+      - "01-food-marketplace/**"
+      - ".github/workflows/marketplace-ci.yml"
+  pull_request:
+    paths:
+      - "01-food-marketplace/**"
+      - ".github/workflows/marketplace-ci.yml"
+
+jobs:
+  marketplace:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: 01-food-marketplace
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: 01-food-marketplace/package-lock.json
+
+      - name: Start MongoDB replica set
+        run: |
+          docker run -d --name fm-mongo -p 27017:27017 mongo:7 --replSet rs0 --bind_ip_all
+          for i in $(seq 1 30); do
+            if docker exec fm-mongo mongosh --quiet --eval 'db.adminCommand({ping:1})' >/dev/null 2>&1; then break; fi
+            sleep 1
+          done
+          docker exec fm-mongo mongosh --quiet --eval "rs.initiate({_id:'rs0',members:[{_id:0,host:'127.0.0.1:27017'}]})"
+
+      - name: Start Redis
+        run: docker run -d --name fm-redis -p 6379:6379 redis:7-alpine
+
+      - name: Install
+        run: npm ci --include=dev
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Test
+        run: npm test
+        env:
+          TEST_MONGODB_URI: mongodb://127.0.0.1:27017/freshmarket_test?replicaSet=rs0&directConnection=true
+          TEST_REDIS_URL: redis://127.0.0.1:6379
+
+      - name: Build
+        run: npm run build

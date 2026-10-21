@@ -1,0 +1,49 @@
+@import "@fontsource-variable/fraunces";
+@import "@fontsource-variable/inter";
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #fbf7ef;
+  --color-ink: #1e2a23;
+  --color-forest: #214c3a;
+  --color-leaf: #2f6b4f;
+  --color-terracotta: #bd5b37;
+  --color-sand: #efe5d6;
+  --color-butter: #f4d58d;
+  --font-display: "Fraunces Variable", Georgia, "Times New Roman", serif;
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cream font-sans text-ink antialiased;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-display tracking-tight;
+  }
+
+  ::selection {
+    @apply bg-butter text-ink;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-leaf ring-offset-2 ring-offset-cream;
+  }
+}
+
+@layer components {
+  .surface {
+    @apply rounded-2xl border border-ink/10 bg-white;
+  }
+
+  .prose-copy p {
+    @apply text-sm leading-6 text-ink/75;
+  }
+}

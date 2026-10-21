@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Coriander Seeds">
+  <rect width="800" height="600" fill="#d8c59b"/>
+  <circle cx="640" cy="120" r="150" fill="#ffffff" opacity=".28"/>
+  <circle cx="120" cy="500" r="190" fill="#ffffff" opacity=".18"/>
+  <circle cx="530" cy="210" r="18" fill="#6a5533"/><circle cx="575" cy="240" r="18" fill="#6a5533"/><circle cx="610" cy="190" r="18" fill="#6a5533"/><circle cx="560" cy="290" r="18" fill="#6a5533"/><circle cx="620" cy="280" r="18" fill="#6a5533"/>
+  <text x="48" y="500" font-family="Georgia, serif" font-size="46" font-weight="700" fill="#6a5533">Coriander Seeds</text>
+  <text x="48" y="544" font-family="Arial, sans-serif" font-size="22" letter-spacing="3" fill="#6a5533" opacity=".7">FRESHMARKET</text>
+</svg>

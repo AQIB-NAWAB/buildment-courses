@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Dish Soap">
+  <rect width="800" height="600" fill="#bfe0e6"/>
+  <circle cx="640" cy="120" r="150" fill="#ffffff" opacity=".28"/>
+  <circle cx="120" cy="500" r="190" fill="#ffffff" opacity=".18"/>
+  <rect x="510" y="160" width="130" height="190" rx="24" fill="#245e66" opacity=".9"/><rect x="545" y="120" width="60" height="50" rx="10" fill="#245e66"/><circle cx="575" cy="250" r="26" fill="#fff" opacity=".75"/>
+  <text x="48" y="500" font-family="Georgia, serif" font-size="46" font-weight="700" fill="#245e66">Dish Soap</text>
+  <text x="48" y="544" font-family="Arial, sans-serif" font-size="22" letter-spacing="3" fill="#245e66" opacity=".7">FRESHMARKET</text>
+</svg>
